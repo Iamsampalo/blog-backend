@@ -1,0 +1,42 @@
+Node js is a runtime environment that is used to execute Javascript outside of the browser.
+It was created by Ryan Dyal in 2009 
+Node is not a language or a framework 
+
+
+Built In Modules 
+    - fs - file system
+    - os - 
+    - http -
+    - path
+
+
+MVC
+Model - This is where the structure of your database is written. It can be used to query the database. 
+View - What the users sees. 
+Controller - This is where the logic that connects the frontend to the backend is written. 
+
+
+HTTP Methods 
+
+GET 
+POST 
+PUT 
+DELETE
+PATCH
+
+CRUD operation 
+CREATE
+READ
+UPDATE
+DELETE 
+
+
+Authentication and Authorization 
+Authentication is the process of checking if a user credentials matches what's in the database
+Authorization is giving access to certain routes
+
+Relationship in database is just how the collections or tables are connected together. 
+    Types 
+        One to Many 
+        Many to one 
+        One to One
