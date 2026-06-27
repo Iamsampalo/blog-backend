@@ -9,7 +9,7 @@ router.post('/', upload.single('image'), signUp)
 
 router.post('/login', login)
 
-router.get('/',  getAllUsers)
+router.get('/', authorize(["admin"]), getAllUsers)
 
 router.get("/:id", getUserById)
 
